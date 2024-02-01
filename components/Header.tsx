@@ -1,5 +1,6 @@
 import ModeToggle from "./DarkModeToggle"
 import Logo from "./Logo"
+import UserButton from "./ui/UserButton"
 
 
 function Header() {
@@ -18,7 +19,9 @@ function Header() {
                 {/* Dark Mode toggle */}
                 <ModeToggle />
 
-                {/* Updgrader button */}
+                {/* User button */}
+                <UserButton />
+
             </div>
         </nav>
         {/* upgrade banner */}
